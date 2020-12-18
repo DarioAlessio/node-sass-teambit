@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
 .container-header {
   height: 70px;
   width: 80%;
   margin: auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -25,7 +35,15 @@ a {
   text-decoration: none;
 }
 
-button {
-  margin-right: 20px;
+.container-jumbotron {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-jumbo > img {
+  max-width: 450px;
+  max-height: 450px;
 }
 

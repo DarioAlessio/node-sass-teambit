@@ -3,7 +3,7 @@
   width: 80%;
   margin: auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -21,8 +21,4 @@ ul, li, a {
   margin: 0 15px;
   list-style-type: none;
   text-decoration: none;
-}
-
-button{
-  margin-right: 20px;
 }
