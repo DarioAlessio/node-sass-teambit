@@ -3,14 +3,40 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-
+  padding: 100px 0;
 }
 
-.left-jumbo{
-  
+.left-jumbo > h1{
+  font-size: 42px;
+  padding: 20px 0;
+}
+
+.left-jumbo > h5{
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.left-jumbo > p{
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.left-jumbo > span{
+  padding: 0 10px;
+  color: lightgrey;
+}
+
+.left-jumbo > button{
+  margin-top: 35px;
+  @include button-main;
+}
+
+.left-jumbo > button:hover{
+  background-color: #000066;
+  color: white;
+  cursor: pointer;
 }
 
 .right-jumbo > img{
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 570px;
 }

@@ -5,15 +5,30 @@
 }
 
 body{
-  font-family: 'HarmoniaSansProCyr-SemiBd';
+  font-family: sans-serif;
   color: #58402c;
 }
 
+// header
+@mixin button-header{
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px 10px;
+  transition: 0.5s;
+  color: blue;
+}
+
  // main
-
+@mixin button-main{
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition: 0.5s;
+  color: white;
+}
  // section pink
-
-
 @mixin title-text-section-pink{
   text-align: center;
   margin: auto;

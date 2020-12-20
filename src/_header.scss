@@ -13,12 +13,40 @@
   margin-right: 240px;
 }
 
+.logo-image > span {
+  padding: 0 15px;
+  font-size: 20px;
+}
+
 .nav-bar{
   display: flex;
+  align-items: center;
+}
+
+.nav-bar > li{
+  font-size: 14px;
 }
 
 ul, li, a {
   margin: 0 15px;
   list-style-type: none;
   text-decoration: none;
+  color: #58402c;
+}
+
+button{
+
+  @include button-header;
+}
+
+button:hover{
+  border-color: blue;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+hr{
+  width: 80%;
+  margin: auto;
 }

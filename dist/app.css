@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "HarmoniaSansProCyr-SemiBd";
+  font-family: sans-serif;
   color: #58402c;
 }
 
@@ -24,8 +24,18 @@ body {
   margin-right: 240px;
 }
 
+.logo-image > span {
+  padding: 0 15px;
+  font-size: 20px;
+}
+
 .nav-bar {
   display: flex;
+  align-items: center;
+}
+
+.nav-bar > li {
+  font-size: 14px;
 }
 
 ul,
@@ -34,6 +44,28 @@ a {
   margin: 0 15px;
   list-style-type: none;
   text-decoration: none;
+  color: #58402c;
+}
+
+button {
+  border: 1px solid blue;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px 10px;
+  transition: 0.5s;
+  color: blue;
+}
+
+button:hover {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  width: 80%;
+  margin: auto;
 }
 
 .container-jumbotron {
@@ -41,11 +73,47 @@ a {
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding: 100px 0;
+}
+
+.left-jumbo > h1 {
+  font-size: 42px;
+  padding: 20px 0;
+}
+
+.left-jumbo > h5 {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.left-jumbo > p {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.left-jumbo > span {
+  padding: 0 10px;
+  color: lightgrey;
+}
+
+.left-jumbo > button {
+  margin-top: 35px;
+  border: 1px solid blue;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition: 0.5s;
+  color: white;
+}
+
+.left-jumbo > button:hover {
+  background-color: #000066;
+  color: white;
+  cursor: pointer;
 }
 
 .right-jumbo > img {
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 570px;
 }
 
 div.container-pink {
