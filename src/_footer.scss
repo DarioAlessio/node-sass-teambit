@@ -1,0 +1,41 @@
+div.container-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  text-shadow: none;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  div.left-footer{
+   display: flex;
+   width: 400px;
+     img{
+      width: 50px;
+      padding-right: 10px;
+     }
+     span,a{
+       margin: 0;
+      font-weight: 600;
+      font-size: 16px;
+     }
+  }
+  div.nav-footer {
+    width: 200px;
+     ul,li,a{
+       margin: 15px 0px;
+       font-size: 14px;
+       color: #58402c;
+       &:hover{
+        color: #30488F;
+       }
+     }
+  }
+}
+
+.button-footer i{
+  @include button-fixed;
+}
+
+.button-footer:hover {
+  cursor: pointer;
+}

@@ -178,3 +178,66 @@ div.container-pink-box-white div.box-white {
   font-size: 16px;
 }
 
+div.container-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  text-shadow: none;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+div.container-footer div.left-footer {
+  display: flex;
+  width: 400px;
+}
+
+div.container-footer div.left-footer img {
+  width: 50px;
+  padding-right: 10px;
+}
+
+div.container-footer div.left-footer span,
+div.container-footer div.left-footer a {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+div.container-footer div.nav-footer {
+  width: 200px;
+}
+
+div.container-footer div.nav-footer ul,
+div.container-footer div.nav-footer li,
+div.container-footer div.nav-footer a {
+  margin: 15px 0px;
+  font-size: 14px;
+  color: #58402c;
+}
+
+div.container-footer div.nav-footer ul:hover,
+div.container-footer div.nav-footer li:hover,
+div.container-footer div.nav-footer a:hover {
+  color: #30488F;
+}
+
+.button-footer i {
+  position: fixed;
+  bottom: 10px;
+  right: 18px;
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.button-footer:hover {
+  cursor: pointer;
+}
+
