@@ -5,18 +5,21 @@
 }
 
 body{
-  width: 100%;
   font-family: 'HarmoniaSansProCyr-SemiBd';
   color: #58402c;
 }
 
- // main section pink
+ // main
+
+ // section pink
+
 
 @mixin title-text-section-pink{
   text-align: center;
   margin: auto;
   color: #58402c;
   font-weight: 600;
+  // font-size: 28px;ATTENZIONE FONT SIZE
 
 }
 
@@ -34,6 +37,9 @@ justify-content: center;
 }
 
 // section white
+@mixin img-big-section-white{
+max-width: 768px;
+}
 @mixin title {
   padding: 10px 0;
   font-weight: 600;
@@ -47,4 +53,16 @@ justify-content: center;
   padding: 10px 0;
   margin-left: 0;
   font-size: 20px;
+}
+
+@mixin text-box{
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 16px;
 }

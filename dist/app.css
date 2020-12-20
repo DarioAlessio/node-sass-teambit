@@ -5,7 +5,6 @@
 }
 
 body {
-  width: 100%;
   font-family: "HarmoniaSansProCyr-SemiBd";
   color: #58402c;
 }
@@ -37,227 +36,6 @@ a {
   text-decoration: none;
 }
 
-main div.container-pink {
-  background-color: pink;
-}
-
-main div.container-pink div.title-pink {
-  text-align: center;
-  margin: auto;
-  color: #58402c;
-  font-weight: 600;
-}
-
-main div.container-pink div.img-pink {
-  display: flex;
-  justify-content: space-between;
-  width: 55%;
-  margin: auto;
-}
-
-main div.container-pink div.picture > img,
-main div.container-pink p {
-  max-height: 100px;
-  max-width: 200px;
-  text-align: center;
-}
-
-main div.container-pink div.big-img-pink {
-  display: flex;
-  justify-content: center;
-}
-
-main div.container-pink div.big-img-pink img {
-  max-width: 250px;
-  max-height: 250px;
-}
-
-main div.container-white-left-0 {
-  position: relative;
-}
-
-main div.container-white-left-0 div.image-section-white > img {
-  position: absolute;
-  left: -100px;
-  max-width: 800px;
-  max-height: 500px;
-}
-
-main div.container-white-left-0 div.text-white-section {
-  position: absolute;
-  right: 300px;
-}
-
-main div.container-white-left-0 div.text-white-section h2 {
-  padding: 10px 0;
-  font-weight: 600;
-}
-
-main div.container-white-left-0 div.text-white-section p {
-  padding: 10px 0;
-  font-size: 20px;
-}
-
-main div.container-white-left-0 div.text-white-section a,
-main div.container-white-left-0 div.text-white-section i {
-  color: #30488F;
-  padding: 10px 0;
-  margin-left: 0;
-  font-size: 20px;
-}
-
-main div.container-white-left-0 div.text-white-section div.imge-white-under {
-  text-align: center;
-  margin-left: 58px;
-  margin-top: 42px;
-}
-
-main div.container-white-left-0 div.text-white-section div.imge-white-under img {
-  max-width: 270px;
-  max-height: 270px;
-}
-
-main div.container-white-right-0 {
-  position: relative;
-}
-
-main div.container-white-right-0 div.image-section-white > img {
-  position: absolute;
-  top: 700px;
-  right: -110px;
-  max-width: 800px;
-  max-height: 500px;
-}
-
-main div.container-white-right-0 div.text-white-section {
-  position: absolute;
-  top: 700px;
-  left: 300px;
-}
-
-main div.container-white-right-0 div.text-white-section h2 {
-  padding: 10px 0;
-  font-weight: 600;
-}
-
-main div.container-white-right-0 div.text-white-section p {
-  padding: 10px 0;
-  font-size: 20px;
-}
-
-main div.container-white-right-0 div.text-white-section a,
-main div.container-white-right-0 div.text-white-section i {
-  color: #30488F;
-  padding: 10px 0;
-  margin-left: 0;
-  font-size: 20px;
-}
-
-main div.container-white-right-0 div.text-white-section div.imge-white-under {
-  text-align: center;
-  margin-left: 58px;
-  margin-top: 42px;
-}
-
-main div.container-white-right-0 div.text-white-section div.imge-white-under img {
-  max-width: 270px;
-  max-height: 270px;
-}
-
-main div.container-white-left-1 {
-  position: relative;
-}
-
-main div.container-white-left-1 div.image-section-white > img {
-  position: absolute;
-  top: 1300px;
-  left: -100px;
-  max-width: 800px;
-  max-height: 500px;
-}
-
-main div.container-white-left-1 div.text-white-section {
-  position: absolute;
-  top: 1300px;
-  right: 300px;
-}
-
-main div.container-white-left-1 div.text-white-section h2 {
-  padding: 10px 0;
-  font-weight: 600;
-}
-
-main div.container-white-left-1 div.text-white-section p {
-  padding: 10px 0;
-  font-size: 20px;
-}
-
-main div.container-white-left-1 div.text-white-section a,
-main div.container-white-left-1 div.text-white-section i {
-  color: #30488F;
-  padding: 10px 0;
-  margin-left: 0;
-  font-size: 20px;
-}
-
-main div.container-white-left-1 div.text-white-section div.imge-white-under {
-  text-align: center;
-  margin-left: 58px;
-  margin-top: 42px;
-}
-
-main div.container-white-left-1 div.text-white-section div.imge-white-under img {
-  max-width: 270px;
-  max-height: 270px;
-}
-
-main div.container-white-right-1 {
-  position: relative;
-}
-
-main div.container-white-right-1 div.image-section-white > img {
-  position: absolute;
-  top: 2000px;
-  right: -85px;
-  max-width: 800px;
-  max-height: 500px;
-}
-
-main div.container-white-right-1 div.text-white-section {
-  position: absolute;
-  top: 2000px;
-  left: 300px;
-}
-
-main div.container-white-right-1 div.text-white-section h2 {
-  padding: 10px 0;
-  font-weight: 600;
-}
-
-main div.container-white-right-1 div.text-white-section p {
-  padding: 10px 0;
-  font-size: 20px;
-}
-
-main div.container-white-right-1 div.text-white-section a,
-main div.container-white-right-1 div.text-white-section i {
-  color: #30488F;
-  padding: 10px 0;
-  margin-left: 0;
-  font-size: 20px;
-}
-
-main div.container-white-right-1 div.text-white-section div.imge-white-under {
-  text-align: center;
-  margin-left: 58px;
-  margin-top: 42px;
-}
-
-main div.container-white-right-1 div.text-white-section div.imge-white-under img {
-  max-width: 270px;
-  max-height: 270px;
-}
-
 .container-jumbotron {
   width: 80%;
   margin: auto;
@@ -268,5 +46,135 @@ main div.container-white-right-1 div.text-white-section div.imge-white-under img
 .right-jumbo > img {
   max-width: 450px;
   max-height: 450px;
+}
+
+div.container-pink {
+  background-color: pink;
+  text-align: center;
+  margin: auto;
+  color: #58402c;
+  font-weight: 600;
+}
+
+div.container-pink div.img-pink {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin: auto;
+}
+
+div.container-pink div.picture > img,
+div.container-pink p {
+  max-height: 100px;
+  max-width: 200px;
+  text-align: center;
+}
+
+div.container-pink div.big-img-pink {
+  display: flex;
+  justify-content: center;
+}
+
+div.container-pink div.big-img-pink img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+#big-container div.container-white-left-0 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -110px;
+}
+
+#big-container div.container-white-left-0 div.image-section-white > img {
+  max-width: 768px;
+}
+
+#big-container div.container-white-left-0 div.text-white-section h2 {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+#big-container div.container-white-left-0 div.text-white-section p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+#big-container div.container-white-left-0 div.text-white-section a,
+#big-container div.container-white-left-0 div.text-white-section i {
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+#big-container div.container-white-left-0 div.text-white-section div.imge-white-under {
+  text-align: center;
+  margin-left: 58px;
+  margin-top: 42px;
+}
+
+#big-container div.container-white-left-0 div.text-white-section div.imge-white-under img {
+  max-width: 270px;
+}
+
+#big-container div.container-white-right-0 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: -100px;
+}
+
+#big-container div.container-white-right-0 div.image-section-white > img {
+  max-width: 768px;
+}
+
+#big-container div.container-white-right-0 div.text-white-section h2 {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+#big-container div.container-white-right-0 div.text-white-section p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+#big-container div.container-white-right-0 div.text-white-section a,
+#big-container div.container-white-right-0 div.text-white-section i {
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+#big-container div.container-white-right-0 div.text-white-section div.imge-white-under {
+  text-align: center;
+  margin-left: 58px;
+  margin-top: 42px;
+}
+
+#big-container div.container-white-right-0 div.text-white-section div.imge-white-under img {
+  max-width: 270px;
+}
+
+div.container-pink-box-white {
+  display: block;
+  text-align: center;
+  background-color: pink;
+  text-align: center;
+  margin: auto;
+  color: #58402c;
+  font-weight: 600;
+}
+
+div.container-pink-box-white div.box-white {
+  max-width: 628px;
+  margin: 35px auto;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-size: 16px;
 }
 
