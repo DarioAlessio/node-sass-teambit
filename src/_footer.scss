@@ -7,10 +7,10 @@ div.container-footer{
   padding-bottom: 40px;
   div.left-footer{
    display: flex;
-   padding-right: 100px;
+   padding-right: 60px;
    width: 400px;
      img{
-      width: 50px;
+      width: 80px;
       padding-right: 10px;
      }
      span,a{
@@ -18,15 +18,15 @@ div.container-footer{
       font-weight: 600;
       font-size: 18px;
      }
+     a{
+       color: blue;
+     }
   }
   div.nav-footer {
     width: 120px;
-    padding-left: 10px;
-
      ul,li,a{
        margin: 15px 0px;
        font-size: 14px;
-       color: #58402c;
        &:hover{
         color: #30488F;
        }
@@ -34,6 +34,7 @@ div.container-footer{
      h4{
        font-size: 18px;
      }
+
   }
 }
 

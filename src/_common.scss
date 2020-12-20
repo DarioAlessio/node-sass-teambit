@@ -6,23 +6,25 @@
 
 body{
   font-family: sans-serif;
-  color: #58402c;
+  color: $colortext;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 // header
 @mixin button-header{
-  border: 1px solid blue;
-  background-color: white;
+  border: 1px solid $buttonback;
+  background-color: $buttonback;
   border-radius: 5px;
   padding: 8px 10px;
   transition: 0.5s;
-  color: blue;
+  color: $colortext;
 }
 
  // main
 @mixin button-main{
-  border: 1px solid blue;
-  background-color: blue;
+  border: 1px solid $buttonback;
+  background-color: $buttonback;
   border-radius: 5px;
   padding: 8px 15px;
   transition: 0.5s;
@@ -32,10 +34,6 @@ body{
 @mixin title-text-section-pink{
   text-align: center;
   margin: auto;
-  color: #58402c;
-  font-weight: 600;
-  // font-size: 28px;ATTENZIONE FONT SIZE
-
 }
 
 @mixin img-pink{
@@ -74,10 +72,8 @@ max-width: 768px;
   max-width: 628px;
   margin: 35px auto;
   padding: 20px 20px 20px 40px;
-  border: 1px solid #bdb5af;
+  border: 1px solid white;
   border-radius: 7px;
-  background: #fff;
-  box-sizing: border-box;
   line-height: 1.5;
   font-size: 16px;
 }

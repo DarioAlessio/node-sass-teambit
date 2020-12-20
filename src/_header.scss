@@ -1,3 +1,8 @@
+header{
+  background-color: $background;
+
+}
+
 .container-header{
   height: 70px;
   width: 80%;
@@ -13,10 +18,10 @@
   margin-right: 240px;
 }
 
-.logo-image > span {
-  padding: 0 15px;
-  font-size: 20px;
+.logo-image > img{
+  max-width: 180px;
 }
+
 
 .nav-bar{
   display: flex;
@@ -31,7 +36,8 @@ ul, li, a {
   margin: 0 15px;
   list-style-type: none;
   text-decoration: none;
-  color: #58402c;
+  color: $colortext;
+
 }
 
 button{

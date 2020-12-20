@@ -6,7 +6,13 @@
 
 body {
   font-family: sans-serif;
-  color: #58402c;
+  color: #7F14D4;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #040F0F;
 }
 
 .container-header {
@@ -24,9 +30,8 @@ body {
   margin-right: 240px;
 }
 
-.logo-image > span {
-  padding: 0 15px;
-  font-size: 20px;
+.logo-image > img {
+  max-width: 180px;
 }
 
 .nav-bar {
@@ -44,16 +49,16 @@ a {
   margin: 0 15px;
   list-style-type: none;
   text-decoration: none;
-  color: #58402c;
+  color: #7F14D4;
 }
 
 button {
-  border: 1px solid blue;
-  background-color: white;
+  border: 1px solid #4466D4;
+  background-color: #4466D4;
   border-radius: 5px;
   padding: 8px 10px;
   transition: 0.5s;
-  color: blue;
+  color: #7F14D4;
 }
 
 button:hover {
@@ -98,8 +103,8 @@ hr {
 
 .left-jumbo > button {
   margin-top: 35px;
-  border: 1px solid blue;
-  background-color: blue;
+  border: 1px solid #4466D4;
+  background-color: #4466D4;
   border-radius: 5px;
   padding: 8px 15px;
   transition: 0.5s;
@@ -117,14 +122,18 @@ hr {
 }
 
 div.container-pink {
-  background-color: pink;
+  padding-top: 100px;
+  background-color: #040F0F;
   text-align: center;
   margin: auto;
-  color: #58402c;
-  font-weight: 600;
+}
+
+div.container-pink div.title-pink {
+  padding: 80px 0;
 }
 
 div.container-pink div.img-pink {
+  padding-top: 80px;
   display: flex;
   justify-content: space-between;
   width: 55%;
@@ -136,19 +145,25 @@ div.container-pink p {
   max-height: 100px;
   max-width: 200px;
   text-align: center;
+  padding: 12px 0;
 }
 
 div.container-pink div.big-img-pink {
+  padding: 80px 0;
   display: flex;
   justify-content: center;
 }
 
 div.container-pink div.big-img-pink img {
   max-width: 250px;
-  max-height: 250px;
+}
+
+#big-container {
+  padding-top: 80px;
 }
 
 #big-container div.container-white-left-0 {
+  padding-bottom: 140px;
   display: flex;
   justify-content: flex-start;
   margin-left: -110px;
@@ -156,6 +171,10 @@ div.container-pink div.big-img-pink img {
 
 #big-container div.container-white-left-0 div.image-section-white > img {
   max-width: 768px;
+}
+
+#big-container div.container-white-left-0 div.text-white-section {
+  padding-left: 25px;
 }
 
 #big-container div.container-white-left-0 div.text-white-section h2 {
@@ -179,7 +198,7 @@ div.container-pink div.big-img-pink img {
 #big-container div.container-white-left-0 div.text-white-section div.imge-white-under {
   text-align: center;
   margin-left: 58px;
-  margin-top: 42px;
+  padding-top: 100px;
 }
 
 #big-container div.container-white-left-0 div.text-white-section div.imge-white-under img {
@@ -187,6 +206,7 @@ div.container-pink div.big-img-pink img {
 }
 
 #big-container div.container-white-right-0 {
+  padding-bottom: 140px;
   display: flex;
   justify-content: flex-end;
   margin-right: -100px;
@@ -194,6 +214,10 @@ div.container-pink div.big-img-pink img {
 
 #big-container div.container-white-right-0 div.image-section-white > img {
   max-width: 768px;
+}
+
+#big-container div.container-white-right-0 div.text-white-section {
+  padding-right: 25px;
 }
 
 #big-container div.container-white-right-0 div.text-white-section h2 {
@@ -217,7 +241,7 @@ div.container-pink div.big-img-pink img {
 #big-container div.container-white-right-0 div.text-white-section div.imge-white-under {
   text-align: center;
   margin-left: 58px;
-  margin-top: 42px;
+  padding-top: 80px;
 }
 
 #big-container div.container-white-right-0 div.text-white-section div.imge-white-under img {
@@ -225,16 +249,19 @@ div.container-pink div.big-img-pink img {
 }
 
 div.container-pink-box-white {
+  padding-top: 80px;
+  padding-bottom: 40px;
   display: block;
-  text-align: center;
-  background-color: pink;
-  text-align: center;
-  margin: auto;
-  color: #58402c;
-  font-weight: 600;
+  background-color: #040F0F;
 }
 
-div.container-pink-box-white div.box-white {
+div.center-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+div.box-white {
   max-width: 628px;
   margin: 35px auto;
   padding: 20px 20px 20px 40px;
@@ -244,6 +271,50 @@ div.container-pink-box-white div.box-white {
   box-sizing: border-box;
   line-height: 1.5;
   font-size: 16px;
+}
+
+div.img-box {
+  display: flex;
+  padding-top: 10px;
+}
+
+div.img-box img {
+  width: 40px;
+  border: 100%;
+}
+
+div.img-box p {
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+div.button-section-pink {
+  text-align: center;
+}
+
+div.button-section-pink > button {
+  margin: 14px 0;
+  border: 1px solid #4466D4;
+  background-color: #4466D4;
+  border-radius: 5px;
+  padding: 8px 15px;
+  transition: 0.5s;
+  color: white;
+}
+
+div.button-section-pink > button:hover {
+  background-color: #000066;
+  color: white;
+  cursor: pointer;
+}
+
+div.button-section-pink > span {
+  color: lightgrey;
+  padding: 0 10px;
+}
+
+div.button-section-pink > p {
+  font-size: 12px;
 }
 
 div.container-footer {
@@ -257,12 +328,12 @@ div.container-footer {
 
 div.container-footer div.left-footer {
   display: flex;
-  padding-right: 100px;
+  padding-right: 60px;
   width: 400px;
 }
 
 div.container-footer div.left-footer img {
-  width: 50px;
+  width: 80px;
   padding-right: 10px;
 }
 
@@ -273,9 +344,12 @@ div.container-footer div.left-footer a {
   font-size: 18px;
 }
 
+div.container-footer div.left-footer a {
+  color: blue;
+}
+
 div.container-footer div.nav-footer {
   width: 120px;
-  padding-left: 10px;
 }
 
 div.container-footer div.nav-footer ul,
@@ -283,7 +357,6 @@ div.container-footer div.nav-footer li,
 div.container-footer div.nav-footer a {
   margin: 15px 0px;
   font-size: 14px;
-  color: #58402c;
 }
 
 div.container-footer div.nav-footer ul:hover,

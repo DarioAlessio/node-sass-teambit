@@ -1,8 +1,13 @@
 div.container-pink{
+  padding-top: 100px;
   background-color: $background;
   @include title-text-section-pink;
+  div.title-pink{
+    padding: 80px 0;
+  }
 
   div.img-pink{
+    padding-top: 80px;
     @include img-pink;
 
   }
@@ -10,18 +15,21 @@ div.container-pink{
     max-height: 100px;
     max-width: 200px;
     text-align: center;
+    padding: 12px 0;
 
   }
   div.big-img-pink{
+    padding: 80px 0;
     @include big-img-pink;
     img{
       max-width: 250px;
-      max-height: 250px;
     }
   }
 }
 #big-container{
+  padding-top: 80px;
   div.container-white-left-0{
+    padding-bottom: 140px;
     display: flex;
     justify-content: flex-start;
     margin-left: -110px;
@@ -29,7 +37,7 @@ div.container-pink{
       @include img-big-section-white;
     }
     div.text-white-section{
-
+      padding-left:25px;
       h2{
         @include title;
 
@@ -44,7 +52,7 @@ div.container-pink{
       div.imge-white-under{
         text-align: center;
         margin-left: 58px;
-        margin-top: 42px;
+        padding-top: 100px;
         img{
           max-width: 270px;
         }
@@ -52,6 +60,7 @@ div.container-pink{
     }
   }
   div.container-white-right-0{
+    padding-bottom: 140px;
     display: flex;
     justify-content: flex-end;
     margin-right: -100px;
@@ -60,7 +69,7 @@ div.container-pink{
       @include img-big-section-white;
     }
     div.text-white-section{
-
+      padding-right: 25px;
       h2{
         @include title;
 
@@ -75,7 +84,7 @@ div.container-pink{
       div.imge-white-under{
         text-align: center;
         margin-left: 58px;
-        margin-top: 42px;
+        padding-top:  80px;
         img{
           max-width: 270px;
         }
@@ -84,12 +93,51 @@ div.container-pink{
   }
 }
 div.container-pink-box-white{
+  padding-top: 80px;
+  padding-bottom: 40px;
   display: block;
-  text-align: center;
   background-color: $background;
-  @include title-text-section-pink;
-  div.box-white{
+}
+div.center-title{
+  text-align: center;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+div.box-white{
     @include text-box;
   }
+  div.img-box{
+    display: flex;
+    padding-top: 10px;
+    img{
+      width: 40px;
+      border: 100%;
+    }
+    p{
+      font-size: 12px;
+      padding-left: 5px;
+    }
+}
 
+div.button-section-pink{
+  text-align: center;
+}
+
+div.button-section-pink > button{
+   margin: 14px 0;
+  @include button-main;
+   &:hover{
+     background-color: #000066;
+     color: white;
+     cursor: pointer;
+   }
+}
+div.button-section-pink > span{
+  color: lightgrey;
+  padding: 0 10px;
+}
+
+div.button-section-pink > p{
+  font-size: 12px;
 }
