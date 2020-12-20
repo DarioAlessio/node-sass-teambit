@@ -6,6 +6,8 @@
 
 body {
   width: 100%;
+  font-family: "HarmoniaSansProCyr-SemiBd";
+  color: #58402c;
 }
 
 .container-header {
@@ -33,6 +35,227 @@ a {
   margin: 0 15px;
   list-style-type: none;
   text-decoration: none;
+}
+
+main div.container-pink {
+  background-color: pink;
+}
+
+main div.container-pink div.title-pink {
+  text-align: center;
+  margin: auto;
+  color: #58402c;
+  font-weight: 600;
+}
+
+main div.container-pink div.img-pink {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin: auto;
+}
+
+main div.container-pink div.picture > img,
+main div.container-pink p {
+  max-height: 100px;
+  max-width: 200px;
+  text-align: center;
+}
+
+main div.container-pink div.big-img-pink {
+  display: flex;
+  justify-content: center;
+}
+
+main div.container-pink div.big-img-pink img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+main div.container-white-left-0 {
+  position: relative;
+}
+
+main div.container-white-left-0 div.image-section-white > img {
+  position: absolute;
+  left: -100px;
+  max-width: 800px;
+  max-height: 500px;
+}
+
+main div.container-white-left-0 div.text-white-section {
+  position: absolute;
+  right: 300px;
+}
+
+main div.container-white-left-0 div.text-white-section h2 {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+main div.container-white-left-0 div.text-white-section p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+main div.container-white-left-0 div.text-white-section a,
+main div.container-white-left-0 div.text-white-section i {
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+main div.container-white-left-0 div.text-white-section div.imge-white-under {
+  text-align: center;
+  margin-left: 58px;
+  margin-top: 42px;
+}
+
+main div.container-white-left-0 div.text-white-section div.imge-white-under img {
+  max-width: 270px;
+  max-height: 270px;
+}
+
+main div.container-white-right-0 {
+  position: relative;
+}
+
+main div.container-white-right-0 div.image-section-white > img {
+  position: absolute;
+  top: 700px;
+  right: -110px;
+  max-width: 800px;
+  max-height: 500px;
+}
+
+main div.container-white-right-0 div.text-white-section {
+  position: absolute;
+  top: 700px;
+  left: 300px;
+}
+
+main div.container-white-right-0 div.text-white-section h2 {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+main div.container-white-right-0 div.text-white-section p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+main div.container-white-right-0 div.text-white-section a,
+main div.container-white-right-0 div.text-white-section i {
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+main div.container-white-right-0 div.text-white-section div.imge-white-under {
+  text-align: center;
+  margin-left: 58px;
+  margin-top: 42px;
+}
+
+main div.container-white-right-0 div.text-white-section div.imge-white-under img {
+  max-width: 270px;
+  max-height: 270px;
+}
+
+main div.container-white-left-1 {
+  position: relative;
+}
+
+main div.container-white-left-1 div.image-section-white > img {
+  position: absolute;
+  top: 1300px;
+  left: -100px;
+  max-width: 800px;
+  max-height: 500px;
+}
+
+main div.container-white-left-1 div.text-white-section {
+  position: absolute;
+  top: 1300px;
+  right: 300px;
+}
+
+main div.container-white-left-1 div.text-white-section h2 {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+main div.container-white-left-1 div.text-white-section p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+main div.container-white-left-1 div.text-white-section a,
+main div.container-white-left-1 div.text-white-section i {
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+main div.container-white-left-1 div.text-white-section div.imge-white-under {
+  text-align: center;
+  margin-left: 58px;
+  margin-top: 42px;
+}
+
+main div.container-white-left-1 div.text-white-section div.imge-white-under img {
+  max-width: 270px;
+  max-height: 270px;
+}
+
+main div.container-white-right-1 {
+  position: relative;
+}
+
+main div.container-white-right-1 div.image-section-white > img {
+  position: absolute;
+  top: 2000px;
+  right: -85px;
+  max-width: 800px;
+  max-height: 500px;
+}
+
+main div.container-white-right-1 div.text-white-section {
+  position: absolute;
+  top: 2000px;
+  left: 300px;
+}
+
+main div.container-white-right-1 div.text-white-section h2 {
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+main div.container-white-right-1 div.text-white-section p {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+main div.container-white-right-1 div.text-white-section a,
+main div.container-white-right-1 div.text-white-section i {
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
+}
+
+main div.container-white-right-1 div.text-white-section div.imge-white-under {
+  text-align: center;
+  margin-left: 58px;
+  margin-top: 42px;
+}
+
+main div.container-white-right-1 div.text-white-section div.imge-white-under img {
+  max-width: 270px;
+  max-height: 270px;
 }
 
 .container-jumbotron {

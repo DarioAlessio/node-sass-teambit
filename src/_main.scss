@@ -1,0 +1,176 @@
+main{
+  div.container-pink{
+    background-color: $background;
+    div.title-pink{
+      @include title-text-section-pink;
+    }
+
+    div.img-pink{
+      @include img-pink;
+
+    }
+    div.picture > img, p{
+      max-height: 100px;
+      max-width: 200px;
+      text-align: center;
+
+    }
+    div.big-img-pink{
+      @include big-img-pink;
+      img{
+        max-width: 250px;
+        max-height: 250px;
+      }
+
+
+
+    }
+  }
+
+  div.container-white-left-0{
+    position: relative;
+    div.image-section-white > img{
+      position: absolute;
+      left:-100px;
+      max-width: 800px;
+      max-height: 500px;
+    }
+    div.text-white-section{
+      position: absolute;
+      right:  300px;
+      h2{
+        @include title;
+
+      }
+      p{
+        @include text;
+
+      }
+      a,i{
+        @include link;
+      }
+      div.imge-white-under{
+        text-align: center;
+        margin-left: 58px;
+        margin-top: 42px;
+        img{
+          max-width: 270px;
+          max-height: 270px;
+        }
+      }
+
+
+    }
+  }
+  div.container-white-right-0{
+    position: relative;
+    div.image-section-white > img{
+      position: absolute;
+      top: 700px;
+      right:-110px;
+      max-width: 800px;
+      max-height: 500px;
+    }
+    div.text-white-section{
+      position: absolute;
+      top: 700px;
+      left:  300px;
+      h2{
+        @include title;
+
+      }
+      p{
+        @include text;
+
+      }
+      a,i{
+        @include link;
+      }
+      div.imge-white-under{
+        text-align: center;
+        margin-left: 58px;
+        margin-top: 42px;
+        img{
+          max-width: 270px;
+          max-height: 270px;
+        }
+      }
+    }
+  }
+  div.container-white-left-1{
+    position: relative;
+    div.image-section-white > img{
+      position: absolute;
+      top: 1300px;
+      left:-100px;
+      max-width: 800px;
+      max-height: 500px;
+    }
+    div.text-white-section{
+      position: absolute;
+      top: 1300px;
+      right:  300px;
+      h2{
+        @include title;
+
+      }
+      p{
+        @include text;
+
+      }
+      a,i{
+        @include link;
+      }
+      div.imge-white-under{
+        text-align: center;
+        margin-left: 58px;
+        margin-top: 42px;
+        img{
+          max-width: 270px;
+          max-height: 270px;
+        }
+      }
+
+
+    }
+  }
+  div.container-white-right-1{
+    position: relative;
+    div.image-section-white > img{
+      position: absolute;
+      top: 2000px;
+      right:-85px;
+      max-width: 800px;
+      max-height: 500px;
+    }
+    div.text-white-section{
+      position: absolute;
+      top: 2000px;
+      left:  300px;
+      h2{
+        @include title;
+
+      }
+      p{
+        @include text;
+
+      }
+      a,i{
+        @include link;
+      }
+      div.imge-white-under{
+        text-align: center;
+        margin-left: 58px;
+        margin-top: 42px;
+        img{
+          max-width: 270px;
+          max-height: 270px;
+        }
+      }
+
+
+    }
+  }
+
+
+}

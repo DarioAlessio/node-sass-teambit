@@ -6,10 +6,45 @@
 
 body{
   width: 100%;
+  font-family: 'HarmoniaSansProCyr-SemiBd';
+  color: #58402c;
 }
+
+ // main section pink
 
 @mixin title-text-section-pink{
   text-align: center;
   margin: auto;
-  
+  color: #58402c;
+  font-weight: 600;
+
+}
+
+@mixin img-pink{
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  margin: auto;
+}
+
+@mixin big-img-pink{
+display: flex;
+justify-content: center;
+
+}
+
+// section white
+@mixin title {
+  padding: 10px 0;
+  font-weight: 600;
+}
+@mixin text{
+  padding: 10px 0;
+  font-size: 20px;
+}
+@mixin link{
+  color: #30488F;
+  padding: 10px 0;
+  margin-left: 0;
+  font-size: 20px;
 }
