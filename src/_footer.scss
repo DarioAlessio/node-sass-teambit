@@ -1,6 +1,5 @@
 div.container-footer{
   display: flex;
-  justify-content: space-between;
   width: 80%;
   margin: auto;
   text-shadow: none;
@@ -8,6 +7,7 @@ div.container-footer{
   padding-bottom: 40px;
   div.left-footer{
    display: flex;
+   padding-right: 100px;
    width: 400px;
      img{
       width: 50px;
@@ -16,11 +16,13 @@ div.container-footer{
      span,a{
        margin: 0;
       font-weight: 600;
-      font-size: 16px;
+      font-size: 18px;
      }
   }
   div.nav-footer {
-    width: 200px;
+    width: 120px;
+    padding-left: 10px;
+
      ul,li,a{
        margin: 15px 0px;
        font-size: 14px;
@@ -28,6 +30,9 @@ div.container-footer{
        &:hover{
         color: #30488F;
        }
+     }
+     h4{
+       font-size: 18px;
      }
   }
 }
