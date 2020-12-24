@@ -13,6 +13,9 @@ body {
 
 header {
   background-color: #040F0F;
+  position: fixed;
+  width: 100%;
+  position: relative;
 }
 
 .container-header {
@@ -71,6 +74,32 @@ button:hover {
 hr {
   width: 80%;
   margin: auto;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 60px;
+  background-color: #040F0F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #7F14D4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #040F0F;
+}
+
+.nav-bar:hover .dropdown-content {
+  display: block;
 }
 
 .container-jumbotron {
@@ -265,10 +294,8 @@ div.box-white {
   max-width: 628px;
   margin: 35px auto;
   padding: 20px 20px 20px 40px;
-  border: 1px solid #bdb5af;
+  border: 1px solid white;
   border-radius: 7px;
-  background: #fff;
-  box-sizing: border-box;
   line-height: 1.5;
   font-size: 16px;
 }
